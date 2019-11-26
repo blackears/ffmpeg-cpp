@@ -1,5 +1,6 @@
 #include "VideoCodec.h"
 #include "FFmpegException.h"
+#include <limits>
 
 using namespace std;
 

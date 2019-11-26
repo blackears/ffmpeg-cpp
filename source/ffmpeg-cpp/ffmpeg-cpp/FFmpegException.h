@@ -2,11 +2,12 @@
 
 #include "ffmpeg.h"
 
+#include <stdexcept>
 #include "std.h"
 
 namespace ffmpegcpp
 {
-	class FFmpegException : std::exception
+    class FFmpegException : std::runtime_error
 	{
 
 	public:
@@ -15,7 +16,7 @@ namespace ffmpegcpp
 
 		FFmpegException(std::string error, int returnValue);
 
-		virtual char const* what() const
+        virtual char const* what() const noexcept override
 		{
 			return std::exception::what();
 		}
