@@ -8,7 +8,7 @@
 namespace ffmpegcpp
 {
 
-	class Codec
+    class FFMPEGCPP_EXPORT Codec
 	{
 	public:
 

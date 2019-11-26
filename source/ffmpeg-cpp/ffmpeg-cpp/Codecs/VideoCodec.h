@@ -6,7 +6,7 @@
 namespace ffmpegcpp
 {
 
-	class VideoCodec : public Codec
+    class FFMPEGCPP_EXPORT VideoCodec : public Codec
 	{
 	public:
 

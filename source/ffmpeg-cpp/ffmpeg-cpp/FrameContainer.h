@@ -4,7 +4,7 @@
 
 namespace ffmpegcpp
 {
-	class FrameContainer
+    class FFMPEGCPP_EXPORT FrameContainer
 	{
 	public:
 

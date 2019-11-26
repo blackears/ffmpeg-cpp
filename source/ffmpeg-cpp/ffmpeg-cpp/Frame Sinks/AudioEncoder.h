@@ -13,7 +13,7 @@
 
 namespace ffmpegcpp
 {
-	class AudioEncoder : public AudioFrameSink, public ConvertedAudioProcessor, public FrameWriter
+    class FFMPEGCPP_EXPORT AudioEncoder : public AudioFrameSink, public ConvertedAudioProcessor, public FrameWriter
 	{
 	public:
 		AudioEncoder(AudioCodec* codec, Muxer* muxer);

@@ -8,7 +8,7 @@
 
 namespace ffmpegcpp
 {
-	class OneInputFrameSink : public FrameSink
+    class FFMPEGCPP_EXPORT OneInputFrameSink : public FrameSink
 	{
 	public:
 

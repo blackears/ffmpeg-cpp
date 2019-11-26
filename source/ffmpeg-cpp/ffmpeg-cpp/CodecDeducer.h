@@ -4,7 +4,7 @@
 
 namespace ffmpegcpp
 {
-	class CodecDeducer
+    class FFMPEGCPP_EXPORT CodecDeducer
 	{
 	public:
 

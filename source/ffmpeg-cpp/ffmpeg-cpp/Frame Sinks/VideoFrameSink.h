@@ -4,7 +4,7 @@
 
 namespace ffmpegcpp
 {
-	class VideoFrameSink : public FrameSink
+    class FFMPEGCPP_EXPORT VideoFrameSink : public FrameSink
 	{
 	public:
 

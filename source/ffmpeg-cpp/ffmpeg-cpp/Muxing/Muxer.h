@@ -8,7 +8,7 @@ namespace ffmpegcpp {
 
 	class OutputStream;
 
-	class Muxer
+    class FFMPEGCPP_EXPORT Muxer
 	{
 	public:
 

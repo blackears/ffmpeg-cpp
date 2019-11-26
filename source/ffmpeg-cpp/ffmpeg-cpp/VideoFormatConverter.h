@@ -5,7 +5,7 @@
 
 namespace ffmpegcpp
 {
-	class VideoFormatConverter
+    class FFMPEGCPP_EXPORT VideoFormatConverter
 	{
 	public:
 

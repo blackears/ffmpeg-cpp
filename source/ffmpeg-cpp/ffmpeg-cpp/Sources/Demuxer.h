@@ -11,7 +11,7 @@
 
 namespace ffmpegcpp
 {
-	class Demuxer : public InputSource
+    class FFMPEGCPP_EXPORT Demuxer : public InputSource
 	{
 	public:
 

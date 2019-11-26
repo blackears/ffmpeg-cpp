@@ -7,7 +7,7 @@
 
 namespace ffmpegcpp
 {
-	class VideoInputStream : public InputStream
+    class FFMPEGCPP_EXPORT VideoInputStream : public InputStream
 	{
 
 	public:

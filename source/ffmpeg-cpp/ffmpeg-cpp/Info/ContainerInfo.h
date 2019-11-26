@@ -7,7 +7,7 @@
 
 namespace ffmpegcpp
 {
-	struct ContainerInfo
+    struct FFMPEGCPP_EXPORT ContainerInfo
 	{
 		long durationInMicroSeconds;
 		float durationInSeconds;

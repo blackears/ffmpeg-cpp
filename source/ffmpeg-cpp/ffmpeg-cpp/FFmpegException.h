@@ -7,7 +7,7 @@
 
 namespace ffmpegcpp
 {
-    class FFmpegException : std::runtime_error
+    class FFMPEGCPP_EXPORT FFmpegException : std::runtime_error
 	{
 
 	public:

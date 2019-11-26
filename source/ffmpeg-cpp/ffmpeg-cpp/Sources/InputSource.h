@@ -2,7 +2,7 @@
 
 namespace ffmpegcpp
 {
-	class InputSource
+    class FFMPEGCPP_EXPORT InputSource
 	{
 	public:
 

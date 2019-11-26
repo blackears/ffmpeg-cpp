@@ -8,7 +8,7 @@
 
 namespace ffmpegcpp
 {
-	class Filter : public FrameSink, public FrameWriter
+    class FFMPEGCPP_EXPORT Filter : public FrameSink, public FrameWriter
 	{
 
 	public:

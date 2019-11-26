@@ -1,10 +1,11 @@
 #pragma once
 #include "VideoCodec.h"
+#include "ffmpeg-cpp_global.h"
 
 namespace ffmpegcpp
 {
 
-	class H265NVEncCodec : public VideoCodec
+    class FFMPEGCPP_EXPORT H265NVEncCodec : public VideoCodec
 	{
 
 	public:

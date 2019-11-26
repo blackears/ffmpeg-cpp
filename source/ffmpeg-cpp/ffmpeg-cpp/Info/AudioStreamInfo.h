@@ -4,7 +4,7 @@
 
 namespace ffmpegcpp
 {
-	struct AudioStreamInfo
+    struct FFMPEGCPP_EXPORT AudioStreamInfo
 	{
 		int id;
 		AVRational timeBase;

@@ -5,7 +5,7 @@
 
 namespace ffmpegcpp
 {
-	class AudioFormatConverter
+    class FFMPEGCPP_EXPORT AudioFormatConverter
 	{
 	public:
 

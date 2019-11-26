@@ -4,6 +4,8 @@
 #include <stdlib.h>  
 #include <crtdbg.h> 
 
+#include "ffmpeg-cpp_global.h"
+
 extern "C" {
 	#include <libavcodec/avcodec.h>
 	#include <libavutil/opt.h>

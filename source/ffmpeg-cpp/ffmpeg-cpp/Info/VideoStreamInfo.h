@@ -4,7 +4,7 @@
 
 namespace ffmpegcpp
 {
-	struct VideoStreamInfo
+    struct FFMPEGCPP_EXPORT VideoStreamInfo
 	{
 		int id;
 		AVRational frameRate;

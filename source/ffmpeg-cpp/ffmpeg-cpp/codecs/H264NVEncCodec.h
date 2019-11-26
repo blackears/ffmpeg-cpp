@@ -4,7 +4,7 @@
 namespace ffmpegcpp
 {
 
-	class H264NVEncCodec : public VideoCodec
+    class FFMPEGCPP_EXPORT H264NVEncCodec : public VideoCodec
 	{
 
 	public:

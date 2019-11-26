@@ -4,7 +4,7 @@
 
 namespace ffmpegcpp
 {
-	struct StreamData
+    struct FFMPEGCPP_EXPORT StreamData
 	{
 		AVMediaType type;
 

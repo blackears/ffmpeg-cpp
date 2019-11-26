@@ -5,7 +5,7 @@
 
 namespace ffmpegcpp
 {
-	class FrameWriter
+    class FFMPEGCPP_EXPORT FrameWriter
 	{
 	public:
 

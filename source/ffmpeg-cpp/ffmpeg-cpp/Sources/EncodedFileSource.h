@@ -8,7 +8,7 @@ namespace ffmpegcpp
 {
 	// EncodedFileSource takes a file that is already encoded but not in a container (ie .mp3, .h264)
 	// and feeds it to the system.
-	class EncodedFileSource : public InputSource
+    class FFMPEGCPP_EXPORT EncodedFileSource : public InputSource
 	{
 
 	public:

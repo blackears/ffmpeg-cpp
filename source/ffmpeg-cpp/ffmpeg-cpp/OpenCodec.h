@@ -4,7 +4,7 @@
 
 namespace ffmpegcpp
 {
-	class OpenCodec
+    class FFMPEGCPP_EXPORT OpenCodec
 	{
 	public:
 

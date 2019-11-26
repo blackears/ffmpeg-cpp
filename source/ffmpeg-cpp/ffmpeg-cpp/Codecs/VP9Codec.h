@@ -4,7 +4,7 @@
 namespace ffmpegcpp
 {
 
-	class VP9Codec : public VideoCodec
+    class FFMPEGCPP_EXPORT VP9Codec : public VideoCodec
 	{
 
 	public:

@@ -8,7 +8,7 @@
 
 namespace ffmpegcpp
 {
-	class RawVideoFileSource : public InputSource
+    class FFMPEGCPP_EXPORT RawVideoFileSource : public InputSource
 	{
 	public:
 

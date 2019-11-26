@@ -4,7 +4,7 @@
 
 namespace ffmpegcpp
 {
-	class ConvertedAudioProcessor
+    class FFMPEGCPP_EXPORT ConvertedAudioProcessor
 	{
 	public:
 

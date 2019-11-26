@@ -2,11 +2,11 @@
 
 #include "ffmpeg.h"
 #include "FrameWriter.h"
-#include "Demuxing/Streamdata.h"
+#include "Demuxing/StreamData.h"
 
 namespace ffmpegcpp
 {
-	class FrameSinkStream
+    class FFMPEGCPP_EXPORT FrameSinkStream
 	{
 	public:
 

@@ -7,7 +7,7 @@
 
 namespace ffmpegcpp
 {
-	class AudioOutputStream : public OutputStream
+    class FFMPEGCPP_EXPORT AudioOutputStream : public OutputStream
 	{
 	public:
 

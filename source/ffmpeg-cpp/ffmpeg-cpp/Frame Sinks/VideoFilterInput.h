@@ -5,7 +5,7 @@
 
 namespace ffmpegcpp
 {
-	class VideoFilterInput
+    class FFMPEGCPP_EXPORT VideoFilterInput
 	{
 
 	public:

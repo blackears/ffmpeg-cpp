@@ -10,7 +10,7 @@
 
 namespace ffmpegcpp
 {
-	class VideoEncoder : public VideoFrameSink, public FrameWriter
+    class FFMPEGCPP_EXPORT VideoEncoder : public VideoFrameSink, public FrameWriter
 	{
 	public:
 		VideoEncoder(VideoCodec* codec, Muxer* muxer);

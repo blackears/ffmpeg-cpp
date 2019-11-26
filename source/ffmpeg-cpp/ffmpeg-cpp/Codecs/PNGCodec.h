@@ -1,10 +1,11 @@
 #pragma once
 #include "VideoCodec.h"
+#include "ffmpeg-cpp_global.h"
 
 namespace ffmpegcpp
 {
 
-	class PNGCodec : public VideoCodec
+    class FFMPEGCPP_EXPORT PNGCodec : public VideoCodec
 	{
 
 	public:
